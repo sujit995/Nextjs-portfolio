@@ -16,34 +16,24 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
+        <Link href="#summary">
+          <NavLink>Summary</NavLink>
+        </Link>
+      </li>
+      <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
-      <li>
-        <Link href="#blog">
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#blog">
-          <NavLink>Blogs</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/sujit995">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
+      <SocialIcons href="https://www.linkedin.com/in/sujit-mishra-3b9365188/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com">
+      <SocialIcons href="https://www.instagram.com/mishrasujit995/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
