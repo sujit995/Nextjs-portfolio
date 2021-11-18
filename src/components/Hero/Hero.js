@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
@@ -13,9 +12,9 @@ const Hero = (props) => (
         <h6>Learner & Developer</h6>
       </SectionTitle>
       <SectionText>
-      I love learning about new technologies, and solving problems to build better and scalable products.
+        I love learning about new technologies, and solving problems to build better and scalable products.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://drive.google.com/file/d/1kOEEeN8rV80THBiXQJNu3d0ntFtNqXU0/view?usp=sharing'}>Download CV</Button>
     </LeftSection>
   </Section>
 );
