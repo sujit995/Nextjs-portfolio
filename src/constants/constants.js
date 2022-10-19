@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Memories App',
+    description: "It is a simple social media application that allows users to post interesting events the user can create, update and delete the post",
+    image: '/images/memories.png',
+    tags: ['React', 'Material UI', 'Node js', 'Express', 'MongoDB'],
+    source: 'https://github.com/sujit995/Memories-app-frontend',
+    visit: 'https://sujit995-memories-app.netlify.app',
+    id: 0,
+  },
+  {
     title: 'Online Food Delivery',
     description: "This app make it convenient and engaging for customers to buy food online",
     image: '/images/port1.png',
     tags: ['React', 'Firebase', 'Styled Component'],
     source: 'https://github.com/sujit995/food-order-app',
     visit: 'https://sujit995-onlinefood-delivery.netlify.app',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Photo Gallery',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Firebase', 'Styled Component'],
     source: 'https://github.com/sujit995/photo-gallery-app',
     visit: 'https://sujit995-photo-gallery.netlify.app',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Minichat App',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['React', 'Firebase'],
     source: 'https://github.com/sujit995/mini-chat-app',
     visit: 'https://mini-chat-app.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Movie Search App',
@@ -33,6 +42,6 @@ export const projects = [
     tags: ['React', 'IMDB Api'],
     source: 'https://github.com/sujit995/movie-details-app',
     visit: 'https://sujit995-movie-app.netlify.app',
-    id: 3,
+    id: 4,
   },
 ];
